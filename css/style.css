@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Manjari:100,400|Oswald|Roboto&display=swap');
+* {
+    padding:0;
+    margin:0;
+}
+html {
+    scroll-behavior: smooth;
+}
+li {
+    list-style: none;
+}
+
+.sectionSize {
+    height: 90vh !important;
+    padding-left:50px;
+}
+.linerType li {
+    padding: 20px 0 !important;
+    color : rgb(82, 81, 81);
+    border-bottom : 3px solid rgba(128, 128, 128, 0.253);
+    transform: all;
+    transition: 1s;
+}
+.linerType li:hover {
+    background-color: rgba(128, 128, 128, 0.253);
+}
+#topBorder {
+    width:100%;
+    height:10vh !important;
+    background-color: rgb(22, 23, 29);
+    /*border-bottom : 3px solid red;*/
+    -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.75);
+}
+
+nav ul {
+    display:block;
+    display : flex;
+    justify-content: center;
+}
+
+nav li {
+    padding : 20px;
+}
+nav a{
+    color: rgb(22, 23, 29);
+    font-size: 18px;
+    font-family: Manjari;
+    text-decoration: none;
+    transform: all;
+    transition: 0.5s;
+}
+nav li:after {
+    padding-left:50px;
+    content :"|";
+}
+nav li:last-child:after {
+    content :" ";
+}
+nav a:hover {
+    color: rgb(250, 71, 0);
+    font-size:24px;
+}
+#slider{
+    width: 100%;
+    height:90vh;
+    background: url("http://markus-emile.be/media/mbr-1920x1281.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  bottom;
+}
+.boxing {
+        position:absolute;
+        margin-left:-20px;
+        top:40%;
+        display: inline-block;
+        padding:50px;
+        background-color:  rgb(250, 71, 0);
+}
+.boxing h2, .boxing h1{
+    font-family : lobster;  
+}
+.boxing h3 {
+    padding-top:5px;
+    font-family : manjari;  
+}
+.titreSection {
+    padding: 20px  0px;
+    margin-bottom : 20px;
+    font-size:32px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-family : oswald;
+    border-bottom : solid 5px rgb(250, 71, 0);
+}
+#tabAbout {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.ennText {
+    padding-left:5px;
+    font-family : roboto;   
+    font-size:18px;
+}
+.repText {
+    font-family : roboto;   
+    font-size:18px;
+    color: rgb(0, 110, 184);
+    font-style: italic;
+}
+.maPhoto {
+     text-align:center;
+     width:400px;
+     height:400px;
+     text-align:center; 
+     background:url("../img/moi.jpg");
+     background-repeat: none;
+     background-size:cover;
+     border: 25px solid #fff;
+     -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.75);
+}

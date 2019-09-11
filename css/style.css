@@ -100,6 +100,8 @@ nav a:hover {
     align-items: center;
     justify-content: center;
 }
+content: '\undefined';
+
 .ennText {
     padding-left:5px;
     font-family : roboto;   
@@ -111,6 +113,9 @@ nav a:hover {
     color: rgb(0, 110, 184);
     font-style: italic;
 }
+
+
+
 .maPhoto {
      text-align:center;
      width:400px;
@@ -123,4 +128,26 @@ nav a:hover {
      -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.75);
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+.mafamille {
+
+    text-align:center;
+     width:400px;
+     height:400px;
+     text-align:center; 
+     background:url("../img/famille.jpg");
+     background-repeat: none;
+     background-size:cover;
+     border: 25px solid #fff;
+     -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.75);
+    -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
